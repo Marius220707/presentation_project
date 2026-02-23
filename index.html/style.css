@@ -1,0 +1,5 @@
+.conteneur {
+    display: flex;
+    align-items: center; /* aligne verticalement */
+    gap: 20px; /* espace entre image et texte */
+}
