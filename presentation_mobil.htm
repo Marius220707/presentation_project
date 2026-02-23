@@ -27,6 +27,12 @@ body, main {
     background-position: center;
     z-index: -1;
 }
+.responsive-img {
+    max-width: 100%; /* ne dépasse jamais la largeur de l'écran */
+    height: auto;    /* conserve les proportions */
+    display: block;  /* évite des petits espaces autour */
+    margin: 0 auto;  /* centrer sur PC */
+}
 
 /* --- Headers --- */
 h1{
@@ -140,7 +146,7 @@ footer {
     <main>
         <h2>Presentation project</h2>
 		<h3>Encodeur: Noah   3D, web developer: Marius</h3>
-		<img src="images/pir.jfif" alt="The pirahna pipe in Mario" width="640" height="460">
+		<img src="images/pir.jfif" alt="The pirahna pipe in Mario" class="responsive-img">
         
 		<h2>Needs analysis</h2>
 		<div class="conteneur">
